@@ -1,85 +1,157 @@
-<html>
+<!doctype html>
+<html lang="pl">
 	<head>
-		<title></title>
-		<link href="index.css" rel="stylesheet" />
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+   		<meta name="author" content="Efekt Agency - www.efekt.co">
+    	<link rel="copyright" href=""> <!-- href="/license.md"-->
+
+		<link href="index.css" rel="stylesheet" />
+
+		<title>Babiana by Anita</title>
 	</head>
 	
 	<body>
 		<div>
-		<div class="head"> <!-- naglowek -->
-			<div> <!--babiana   tytul-->
+		<header class="head"> <!-- naglowek -->
+			<svg id="babiana_photo"><!--babiana   tytul-->
+				<use xlink:href=""></use>
+			</svg> 
 			
-			</div> 
-			
-			<div> <!--umow sie na wizyte-->
+			<div id="button_umow_sie"> <!--umow sie na wizyte-->
+				<a href=""><button>Umów sie na wizytę!</button></a>
 			</div>
-		</div> 
+		</header> 
 		
 		<div class="screen">
 			<div id="one" > <!-- czytaj, zabiegi, cennik -->
 				<div class="czytaj"> <!-- czytaj-->
-					<div id="czyt1">10 sposobów na <br>zdrową...</div>
-					<div id="czyt2"> > czytaj </div>
+					<p id="czyt1">10 sposobów na <br>zdrową...</p>
+					<section>
+						<svg class="svg_picture">
+							<use xlink:href=""></use>
+						</svg>
+						<p id="czyt2">czytaj </p>
+					</section>
 				</div>
 			
 				<div class="zabcen">
-					<div id="zab"> <!-- zabiegi -->
-						<div id="zabcen1">> zabiegi</div>
-					</div>
+					<section id="zab"> <!-- zabiegi -->
+						<svg class="svg_picture">
+							<use xlink:href=""></use>
+						</svg>
+						<a href="">
+						<p id="zabcen1">zabiegi</p>
+						</a>
+					</section>
 				
-					<div id="cen"> <!-- cennik -->
-						<div id="zabcen2">> cennik</div>
-					</div>
+					<section id="cen"> <!-- cennik -->
+						<svg class="svg_picture">
+							<use xlink:href=""></use>
+						</svg>
+						<p id="zabcen2">cennik</p>
+					</section>
 				</div>
 			</div>
-	
-			<div id="cytat"> <!-- cytat-->
-				<div> Czas płynie nieubłaganie szybko <br> i często tu i owdzie słysze zdanie:<br>"starzeć się z godnością"...<br>Ale co ono tak naprawdę oznacza?<br>Dla jednych jest to bierna zgoda... </div><br> <br><div >więcej o Ambasador Babiany ...</div>
-			</div>
-	
-			<div id="pozwie">
-				<div id="poz"><!--poznaj-->
-					<div id="pozwie1">> poznaj nas</div>
-				</div>
 			
-				<div id="wie"><!--wiedza-->
-					<div id="pozwie2">> wiedza</div>
-				</div>
+			<section>
+				<blockquote id="cytat"> <!-- cytat-->
+					<p> Czas płynie nieubłaganie szybko <br> i często tu i owdzie słysze zdanie:<br>"starzeć się z godnością"...<br>Ale co ono tak naprawdę 		oznacza?<br>Dla jednych jest to bierna zgoda... </p>
+				</blockquote>
+
+				<h1 id="cytat2">więcej o Ambasador Babiany ...</h1>
+			</section>
+
+			<div id="pozwie">
+				<section id="poz"><!--poznaj-->
+					<svg class="svg_picture">
+						<use xlink:href=""></use>
+					</svg>
+					<p id="pozwie1">poznaj nas</p>
+				</section>
+			
+				<section id="wie"><!--wiedza-->
+					<svg class="svg_picture">
+						<use xlink:href=""></use>
+					</svg>
+					<p id="pozwie2">wiedza</p>
+				</section>
 			</div>
 		</div>
 	
-		<div id="insta">INSTAGRAM</div> <!--instagram-->
+
+		<p id="insta">INSTAGRAM</p> <!--instagram-->
 	
 		
 			
 		<div id="fin1">
 			<div id="fin2" ></div><!--kilka fotek na krzyz-->
 			<div>
-				<div id="fun"><!--fundacja-->
-					<p id="fun1">> fundacja</p>
-				</div> 
-				<div id="prez"><!--prezent-->
+				<section id="fun"><!--fundacja-->
+					<svg class="svg_picture">
+						<use xlink:href=""></use>
+					</svg>
+					<p id="fun1">fundacja</p>
+				</section>
+
+				<section id="prez"><!--prezent-->
+					<svg class="svg_picture">
+						<use xlink:href=""></use>
+					</svg>
 					<p id="prez1">prezent</p>
-				</div>
-				<div id="ArtVein"><!--ArtVein-->
-					<p id="ArtVein1">> ArtVein</p>
-				</div>
+				</section>
+
+				<section id="ArtVein"><!--ArtVein-->
+					<svg class="svg_picture">
+						<use xlink:href=""></use>
+					</svg>
+					<p id="ArtVein1">ArtVein</p>
+				</section>
 			</div>
 		</div>
 	
-		<div> <!--nasze uslugi-->
+		<section> <!--nasze uslugi-->
 			<p id="klik1">KLIKNIJ I POZNAJ</p>  <p id="klik2"> NASZE USŁUGI</p>
-		</div>
+		</section>
 	
-		<div id="stopka"><!--stopka-->
-			<div></div> <!--made with love-->
-			<div id="adres">
-			80-465 Gdańsk Zaspa, <br>ul. Hynka 6 / lokal 9 II piętro<br>wejście do biurowca Inpro<br>rejestracja<br><br>tel. 600 086 240<br>mail: recepcja@babiana.pl<br>
-			</div> <!--adres-->
-			<div></div> <!--fb, tweet, printerest-->
-		</div>
-	
+
+		<footer id="stopka"><!--stopka-->
+			<section id="with_love">
+				<p>made with
+					<svg class="svg_picture_micro">
+						<use xlink:href=""></use>
+					</svg>
+				by EFEKT AGENCY</p>
+			</section> <!--made with love-->
+			
+			<address id="adres"><!--adres-->
+				<svg class="babiana_photo">
+					<use xlink:href=""></use>
+				</svg><br>
+				80-465 Gdańsk Zaspa, <br>ul. Hynka 6 / lokal 9 II piętro<br>wejście do biurowca Inpro<br>rejestracja<br><br>tel. 600 086 240<br>mail: recepcja@babiana.pl<br>
+			</address>
+
+			<section id="fb_tweet_pint">
+				<a href="">a
+					<svg class="svg_picture_micro">
+						<use xlink:href=""></use>
+					</svg>
+				</a>
+
+				<a href="">b
+					<svg class="svg_picture_micro">
+						<use xlink:href=""></use>
+					</svg>
+				</a>
+
+				<a href="">c
+					<svg class="svg_picture_micro">
+						<use xlink:href=""></use>
+					</svg>
+				</a>
+			</section> <!--fb, tweet, printerest-->
+		</footer>	
 	
 	
 	</body>
